@@ -67,6 +67,9 @@ class Calculator:
             elif value == "+":
                 print("+ Pressed")
                 self.add_trigger = True
+            elif value == "%":
+                    print("Pressed")
+                    self.add_trigger = True
             else:
                 print("- Pressed")
                 self.sub_trigger = True
